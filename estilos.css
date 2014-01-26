@@ -1,0 +1,46 @@
+article 
+{			
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;	
+	background: #CCC;
+	border-radius: 1em;
+	box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+	text-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+	margin: 1em auto;
+	padding: 1em;
+	width: 40%;
+	min-width: 400px;
+}
+
+article .celda 
+{
+	border: 1px solid #EB9413;			
+	width:100px;			
+	display: inline-block;
+	padding: 0px;
+	min-width: 100px;
+	margin-left: -15px;		
+}
+
+article .fila
+{
+	/*border:1px solid red;*/
+	display: block;
+	width:100%;
+	line-height: 100px;
+}
+
+body
+{
+	background: #333;
+	font-family:"Helvetica",Arial;
+	font-size: 48px;
+	text-align: center;
+}
+header h1 
+{
+	color:#EB9413
+}		
+
+
