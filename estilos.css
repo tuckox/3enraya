@@ -1,34 +1,34 @@
 article 
 {			
-	border: 1px solid black;
-	margin-left: auto;
-	margin-right: auto;	
+	border: 1px solid black;	
 	background: #CCC;
 	border-radius: 1em;
-	box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
-	text-shadow: 0px 5px 5px rgba(0,0,0,0.5);
-	margin: 1em auto;
-	padding: 1em;
-	width: 40%;
+	box-shadow: 0px 5px 5px rgba(0,0,0,0.5);	
+	margin: 1em auto;		
+	margin-left: auto;
+	margin-right: auto;	
 	min-width: 400px;
+	padding: 1em;
+	text-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+	width: 40%;
 }
 
 article .celda 
 {
-	border: 1px solid #EB9413;			
-	width:100px;			
-	display: inline-block;
-	padding: 0px;
+	border: 1px solid #EB9413;						
+	display: inline-block;	
 	min-width: 100px;
-	margin-left: -15px;		
+	margin-left: -15px;	
+	padding: 0px;	
+	width:100px;
 }
 
 article .fila
 {
 	/*border:1px solid red;*/
 	display: block;
-	width:100%;
 	line-height: 100px;
+	width:100%;
 }
 
 body
